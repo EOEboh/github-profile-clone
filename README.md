@@ -3,6 +3,7 @@
 ## Features
 - A Github authentication login
 - Redux Toolkit to fetch data
+- Search Filter 
 - Node Proxy Server
 - CSS Styling
 ## Running the app
