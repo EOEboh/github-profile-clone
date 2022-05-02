@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+aside,
+section{
+    /* outline: 2px solid red; */
+}
+
+aside img{
+    width: 100%;
+    padding: 0.23em;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+}
+main aside{
+    width: 30%;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+main section{
+    width: 70%;
+    display: inline-block;
+}
+
+.name{
+    color: #655f5c;
+}
+.name-2{
+    font-weight: normal;
+}
+.bio{
+    color: #57606f;
+    padding: 2rem 0 ;
+
+}
+
+/* Navbar  */
+.nav-div{
+    margin-bottom: 1rem;
+}
+.repo-nav{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    border-bottom: 1px solid #cbcfd5;
+}
+.repo-nav li {
+    display: inline-block;
+    padding: 1em;
+    cursor: pointer;
+    font-size: smaller;
+    
+}
+.repo-nav li:hover {
+    border-bottom-width: 5px;
+    
+}
+.repo-nav li:nth-of-type(2){
+    border-bottom: 3px solid #df570c;
+    margin-left: 1em;
+}
+.repo-nav li:nth-of-type(1){
+    margin-left: 1em;
+}
+
+/* SearchRepo */
+.search-div{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.input-filter{
+    padding: 5px 12px;
+    width: 70%;
+    border-radius: 0.4rem;
+}
+.search-btns{
+    padding: 5px 16px;
+    color: #24292f;
+    background-color: #F6F8FA;
+    border-radius: 0.4rem;
+    border: 0.5px solid;
+}
+
+
+/* RepoList */
+.repos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    position: relative;
+    /* line-height: 2rem; */
+}
+.repo-data-container{
+
+}
+.repo-data{
+    display: flex;
+}
+.repo-name{
+    color: #0969DA;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.repo-visibility{
+    color: #57606A;
+    margin: 0 0 4px 4px;
+    padding: 0 7px;
+    font-weight: normal;
+    border: 1px solid;
+    border-radius: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.repo-language-color{
+    background-color: #F1E05A;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+}
+.star-btn{
+    padding:2px;
+    height: 10%;
+    border-radius: 0.5rem;
+
+}
+.star-text{
+    font-weight: 400;
+}
+.vertical-line{
+    border-left: 1.5px solid #655f5c;
+    /* padding: 5px; */
+    height: 20px;
+}
+.btn-container{
+    display: inline-flex;
+    justify-content: space-around;
+    /* line-height: 100%; */
+}
