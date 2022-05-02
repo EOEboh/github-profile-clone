@@ -6,7 +6,7 @@ require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const config = {
   client_id: 'd2075042affa5f2ecf0a',
   redirect_uri: 'http://localhost:3000/login',
-  client_secret: '06e6e4d9f3c700ee16ec8541a61b5448f8599356',
+  client_secret:'06e6e4d9f3c700ee16ec8541a61b5448f8599356',
   proxy_url: 'http://localhost:5000/authenticate'
 };
 

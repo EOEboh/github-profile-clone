@@ -3,11 +3,6 @@
 }
 
 /* Profile */
-aside,
-section{
-    /* outline: 2px solid red; */
-}
-
 .profile{
     margin-top: 2rem;
 }
@@ -142,9 +137,7 @@ main section{
     position: relative;
     /* line-height: 2rem; */
 }
-.repo-data-container{
 
-}
 .repo-data{
     display: flex;
 }
