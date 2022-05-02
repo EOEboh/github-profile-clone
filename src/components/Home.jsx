@@ -56,7 +56,7 @@ if(isLoading) return (<h4>Loading...</h4>);
       <section>
         <Navbar />
         <SearchRepo onChange={handleChange}/>
-      {repos?.slice(0, 19)?.map((repo) => (
+      {repos?.slice(0, 20)?.map((repo) => (
          <RepoList  repo={repo}/>
       ))}
       </section>
