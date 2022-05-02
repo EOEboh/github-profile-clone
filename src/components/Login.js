@@ -57,12 +57,13 @@ export default function Login() {
     <Wrapper>
       <section className='container'>
         <div>
-          <h1>Welcome</h1>
-          <span>Super amazing app</span>
+          <h1>Welcome </h1>
+          <span>Bitmama React App</span>
           <span>{data.errorMessage}</span>
           <div className='login-container'>
             {data.isLoading ? (
               <div className='loader-container'>
+                
                 <div className='loader'></div>
               </div>
             ) : (
@@ -70,6 +71,7 @@ export default function Login() {
                 {
                   // Link to request GitHub access
                 }
+                
                 <a
                   className='login-link'
                   href={`https://github.com/login/oauth/authorize?scope=user&client_id=${client_id}&redirect_uri=${redirect_uri}`}
@@ -78,7 +80,7 @@ export default function Login() {
                   }}
                 >
                   
-                  <span>Login with GitHub</span>
+                  <span> Login with GitHub</span>
                 </a>
               </>
             )}
@@ -105,7 +107,8 @@ const Wrapper = Styled.section`
       align-items: center;
       box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
       transition: 0.3s;
-      width: 25%;
+      padding: 2rem;
+      width: 50%;  
       height: 45%;
 
       > h1 {
@@ -126,7 +129,7 @@ const Wrapper = Styled.section`
 
       .login-container {
         background-color: #000;
-        width: 70%;
+        width: 100%;
         border-radius: 3px;
         color: #fff;
         display: flex;
@@ -136,11 +139,9 @@ const Wrapper = Styled.section`
         > .login-link {
           text-decoration: none;
           color: #fff;
-          text-transform: uppercase;
           cursor: default;
           display: flex;
-          align-items: center;          
-
+          align-items: center;
           > span:nth-child(2) {
             margin-left: 5px;
           }
