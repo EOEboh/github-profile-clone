@@ -1,5 +1,10 @@
 # Bitmama Frontend Test
 
+## Features
+- A Github authentication login
+- Redux Toolkit to fetch data
+- Node Proxy Server
+- CSS Styling
 ## Running the app
 - Clone this app to your local machine
 - Install all dependencies by running `yarn` or `npm install`
