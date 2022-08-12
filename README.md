@@ -1,4 +1,4 @@
-# Bitmama Frontend Test
+# GitHub Profile Clone
 
 ## Features
 - A Github authentication login
